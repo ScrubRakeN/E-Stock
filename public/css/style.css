@@ -1,0 +1,399 @@
+
+body{
+    position: relative;
+    width: 1280px;
+    height: 670px;
+    overflow: hidden;
+    background: #E5E5E5
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+
+    color: #224957;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #224957;
+}
+
+/*Site login*/
+
+.Login{
+    position: absolute;
+    width: 174px;
+    height: 83.55px;
+    left: 370px;
+    top: 118px;
+}
+.Line{
+    position: absolute;
+    width: 425px;
+    height: 0px;
+    left: 460px;
+    top: 121px;
+    margin-top: 250px;
+
+    transform: rotate(90deg);
+}
+.BemVindo{
+    position: absolute;
+    width: 376px;
+    height: 75px;
+    left: 660px;
+    top: 118px;
+}
+.Cadastre{
+    position: absolute;
+    width: 368px;
+    height: 20.89px;
+    left: 272px;
+    top: 242.28px;
+
+    color: #224957;
+}
+.Não{
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 307px;
+    top: 452px;
+
+    color: black;
+}
+.Square{
+    position: absolute;
+    width: 177px;
+    height: 174px;
+    left: 756px;
+    top: 251px;
+
+    background: #496873;
+}
+
+.Évc{
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 698px;
+    top: 428px;
+}
+
+
+/*Site Cadastro*/
+.cadastro{
+    position: absolute;
+    width: 408.99px;
+    height: 98.52px;
+    left: 436.35px;
+    top: -20px;
+}
+.frase{
+    position: absolute;
+    width: 865px;
+    height: 24.63px;
+    left: 208px;
+    top: 90px;
+}
+.username{
+    position: absolute;
+    
+    border: none;
+    background: #224957;
+    border-radius: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    color   : #FFFFFF;
+}
+.username_login{
+    width: 300px;
+    height: 47px;
+    left: 307px;
+    top: 311px;
+}
+.username_cadastro{
+    width: 436.73px;
+    height: 41px;
+    left: 547px;
+    top: 170px;
+}
+.password{
+    position: absolute;
+    border: none;
+    background: #224957;
+    border-radius: 10px;
+}
+.password_cadastro{
+    width: 437px;
+    height: 41px;
+    left: 546px;
+    top: 220px;
+}
+.password_login{
+    width: 300px;
+    height: 47px;
+    left: 307px;
+    top: 381.17px;
+}
+.name_empresa{
+    position: absolute;
+    width: 436.73px;
+    height: 41px;
+    left: 547px;
+    top: 270px;
+    border: none;
+    background: #224957;
+    border-radius: 10px;
+
+}
+.local_empresa{
+    position: absolute;
+    width: 436.73px;
+    height: 41px;
+    left: 547px;
+    top: 320px;
+    border: none;
+    background: #224957;
+    border-radius: 10px;
+
+}
+.tel_empresa{
+    position: absolute;
+    width: 436.73px;
+    height: 41px;
+    left: 547px;
+    top: 370px;
+    border: none;
+    background: #224957;
+    border-radius: 10px;
+
+}
+.ja_cadastro{
+    position: absolute;
+    width: 705.16px;
+    height: 21.23px;
+    left: 288px;
+    top: 441px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
+.ja_login{
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    left: 307px;
+    top: 452px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #000000;
+}
+.bt_cadastro{
+    position: absolute;
+    width: 705.16px;
+    height: 55.42px;
+    left: 288.27px;
+    top: 480.58px;
+
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #224957;
+}
+.bts_estoque{
+
+    position: absolute;
+    
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+    border: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 125% */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.bt_1{
+    width: 231px;
+    height: 62px;
+    left: 23px;
+    top: 225px;
+}
+.bt_2{
+    width: 231px;
+    height: 62px;
+    left: 23px;
+    top: 309px;
+}
+.bt_3{
+    width: 231px;
+    height: 62px;
+    left: 23px;
+    top: 531px;
+}
+.bt_4{
+    width: 231px;
+    height: 62px;
+    left: 23px;
+    top: 615px;
+}
+.bt_5{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 43px;
+    top: 405px;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    background: #C4C4C4;
+}
+.bt_6{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 143px;
+    top: 405px;
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    background: #C4C4C4;
+}
+.imagem{
+    position: absolute;
+    width: 223px;
+    height: 245px;
+    left: 297px;
+    top: 170px;
+
+    background: #496873;
+}
+.Vetor {
+    position: absolute;
+    left: -10px;
+    top: 630px;
+}
+.barralateral{
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 300px;
+    height: 698px;
+    background: #496873;
+}
+.logo{
+    position: absolute;
+    width: 201.73px;
+    height: 147px;
+    left: 37px;
+    top: 38px;
+
+    background: url(.png);
+}
+.container{
+    position: absolute;
+    width: 1019px;
+    height: 690px;
+    left: 294px;
+    top: -5px;
+
+    background: #C4C4C4;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+.produto{
+    float: left;
+    width: 290px;
+    height: 163px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: #496873;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+}
+.img_produtos{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: #224957
+}
+.bt_vender{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 125px;
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+    border: none;
+
+}
+.quadrado_nome{
+    position: absolute;
+    width: 139px;
+    height: 37px;
+    margin-left: 132px;
+    margin-top: 20px;
+    border-radius: 10px; 
+    background: #224957;
+}
+.quadrado_qnt{
+    position: absolute;
+    width: 139px;
+    height: 37px;
+    margin-left: 132px;
+    margin-top: 70px;
+    border-radius: 10px; 
+    background: #224957;
+}
+/*<button class="bt_5"><img src="add.png"/></button>
+<button  class="bt_6"><img src="carrinho.png"/></button>*/
